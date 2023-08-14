@@ -1,0 +1,5 @@
+IP: 158.160.23.185;
+name_taski: https://taskiproject.hopto.org;
+name_kittygram: https://kittyservice.hopto.org;
+login: KittyBoss;
+password: warhammer5537;
