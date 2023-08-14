@@ -22,7 +22,6 @@ server {
     ssl_certificate_key /etc/letsencrypt/live/taskiproject.hopto.org/privkey.pem; # managed by Certbot
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
-
 }
 
 server {
@@ -55,7 +54,6 @@ server {
     ssl_certificate_key /etc/letsencrypt/live/kittyservice.hopto.org/privkey.pem; # managed by Certbot
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
-
 }
 
 server {
@@ -68,8 +66,6 @@ server {
     listen 80;
     server_name 158.160.23.185 taskiproject.hopto.org;
     return 404; # managed by Certbot
-
-
 }
 
 
@@ -83,6 +79,4 @@ server {
     server_name 158.160.23.185 kittyservice.hopto.org;
     listen 80;
     return 404; # managed by Certbot
-
-
 }
